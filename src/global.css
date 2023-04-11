@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background:#1A1A1A;
+}
+body,
+input,
+select,
+textarea,
+button {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+
+}
